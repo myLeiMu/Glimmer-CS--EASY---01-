@@ -5,3 +5,23 @@
 3. 删去最后一行。
 4. int是储存整数类型的方式，用int来声明可以让结果返回一个整数，而一般情况下都会是返回0，如果返回了其他整数，则可以用这种方式判断程序出错。
 ![image](https://github.com/user-attachments/assets/07fea3db-6f6c-4485-8e1c-b6ab36568ecf)
+##hacker
+~~~c
+#include<stdio.h>
+int main(void)
+{   int i=0;
+    int code=0;
+    while(i==0)
+    {
+    printf("Show me your code,please!\n");
+    scanf("%d",&code);
+        if(code>=100000 && code<1000000)
+        {
+            printf("I am a super hacker!");
+            i++;
+
+        }else printf("Fake code!");
+    }
+    return 0;
+}
+~~~
